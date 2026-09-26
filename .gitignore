@@ -1,0 +1,18 @@
+# Build output
+bin/
+obj/
+
+# Toolchain / local tooling (large, machine-specific)
+.tools/
+analysis/
+
+# Editor / OS noise
+.vs/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
+
+# Never commit local plans or logs
+gk2_projections.json
+LogOutput.log
